@@ -29,7 +29,7 @@ body
 	display: block;
 	text-align: justify;
 	text-decoration: none;
-	color: #444D56;
+	color: #000000;
 	font-size: 20px;
 }
 
@@ -79,4 +79,24 @@ header
 {
     display: flex;
     flex-direction: column;
+}
+footer
+{
+    background-color: #F2F2F2 ;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 1440px;
+  margin: auto;
+  padding: 2px;
+ 
+}
+.footerul
+{
+    width: 30%;
+    padding: 2rem 2rem;
+}
+.footerli
+{
+    list-style: none;
 }
