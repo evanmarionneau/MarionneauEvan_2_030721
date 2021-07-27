@@ -48,6 +48,7 @@ header
 
 .pop
 {
+    background-color: #F2F2F2;
     display: flex;
    flex-flow: column wrap;
 }
@@ -70,8 +71,21 @@ header
 {
     display: flex;
     flex-direction: column;
+  
 }
-footer
+
+main img {
+    width: 200px; 
+    height: 150px; 
+    object-fit: cover; 
+    }
+
+
+
+
+
+
+    footer
 {
     background-color: #F2F2F2 ;
     display: flex;
@@ -89,4 +103,5 @@ footer div
 footer ul
 {
     list-style: none;
+
 }

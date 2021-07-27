@@ -3,13 +3,14 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
         <title> Reservia </title>
   </head>
     <body>
         <header>
             <img src="images/logo/Reservia.svg" alt="reservia" class="logo">
-            <nav class="nav">
-                <ul class="menu">
+            <nav>
+                <ul>
                     <li><a href="#">Hébergements</a></li>
                     <li><a href="#">Activités</a></li>
                     <li><a href="#">S'inscrire</a></li>  
@@ -21,48 +22,53 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>  
                 <p>En plein centre ville ou en pleine nature </p>
                 <form action="traitement.php" method="post">
+                    <i class="fas fa-map-marker-alt"></i>
                     <input type="search" placeholder="Marseille, France"/>
                     <input type="submit" value="rechercher" />
+                    
                 </form>  
                  <div>
                     <h2>Filtres</h2>
-                    <span>Economique</span>
+                    <span>
+                        Economique
+                        <i class="fas fa-money-bill-wave"></i>
+                    </span>
                     <span>Familial</span>
                     <span>Romantique</span>
                     <span>Animaux autorisés</span>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>   
             </section>
-            <section >
+            <section class="log" >
                 <aside class="pop">
                     <h2>Les plus populaire</h2>
-                    <article class="logpop">
-                        <div class="imglogpop">
+                    <article>
+                        <div>
                             <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre lit double et couleur vert">
                         </div>
-                        <div class="textlogpop">
+                        <div>
                             <h3>Hôtel le soleil du matin</h3>
                             <p>nuit à partir de<strong>128€</strong></p>
+                    </div>
+                    </article>
+                    <article>
+                        <div>
+                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre lit double et couleur gris">
                         </div>
-                        </article>
-                        <article class="logpop">
-                            <div class="imglogpop">
-                                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre lit double et couleur gris">
-                            </div>
-                            <div class="textlogpop">
-                                <h3>Au coeur de l'eau chambres d'hôtes</h3>
-                                <p>Nuit à partir de <strong>71€</strong></p>
-                            </div>
-                        </article>
-                        <article class="logpop">
-                            <div class="imglogpop">
-                                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chabre lit double en bois et couleur blanc cassé">
-                            </div>
-                            <div class="textlogpop">
-                                <h3>Hôtel tout bleu et blanc</h3>
-                                <p>Nuit à partir de <strong>68€</strong></p>
-                            </div>
-                        </article>
+                        <div>
+                            <h3>Au coeur de l'eau chambres d'hôtes</h3>
+                            <p>Nuit à partir de <strong>71€</strong></p>
+                        </div>
+                    </article>
+                    <article>
+                        <div>
+                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chabre lit double en bois et couleur blanc cassé">
+                        </div>
+                        <div>
+                            <h3>Hôtel tout bleu et blanc</h3>
+                            <p>Nuit à partir de <strong>68€</strong></p>
+                        </div>
+                    </article>
                 </aside>
                 <aside>
                     <h2>Hébergements à Marseille</h2>
