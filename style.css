@@ -51,9 +51,13 @@ h1
 font-size: 220%;
 
 }
-.log
+.log img
 {
-    
+        box-sizing: border-box;
+         max-width: 200px; 
+         max-height: 150px ; 
+          object-fit: cover ; 
+           
 }
 .pop
 {
@@ -72,7 +76,7 @@ font-size: 220%;
     box-shadow: 0 0 16px #0000002e;
     cursor: pointer;
     width: 100%;
-    height: 7em;
+    height: auto;
     display: flex;
     flex-flow: row wrap;
  
@@ -85,7 +89,7 @@ font-size: 220%;
   
 }
 
-main img {
+.heb img {
   box-sizing: border-box;
    max-width: 100%; 
    max-height: 100% ; 
