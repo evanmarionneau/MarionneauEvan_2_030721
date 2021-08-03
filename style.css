@@ -51,14 +51,6 @@ h1
 font-size: 220%;
 
 }
-.log img
-{
-        box-sizing: border-box;
-         max-width: 200px; 
-         max-height: 150px ; 
-          object-fit: cover ; 
-           
-}
 .pop
 {
     background-color: #F2F2F2;
@@ -67,21 +59,28 @@ font-size: 220%;
    height: auto;
    width: auto;
 }
+
 .pop article
 {
-    background-color: white;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 1.25rem;
+    background-color: white;  
+    border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
     cursor: pointer;
     width: 100%;
     height: auto;
     display: flex;
     flex-flow: row wrap;
+    
  
 }
-
+.pop img
+{
+        box-sizing:border-box ;
+         max-width: 200px; 
+         max-height: 150px ; 
+          object-fit: cover  ; 
+           
+}
 .pop::first-line
 {
     display: flex;
@@ -89,44 +88,65 @@ font-size: 220%;
   
 }
 
-.heb img {
-  box-sizing: border-box;
-   max-width: 100%; 
-   max-height: 100% ; 
-    object-fit: cover ; 
-     }
+
 .heb
 {
     background-color: #F2F2F2;
     display: flex;
    flex-flow: row wrap; 
    justify-content: space-around;  
-   width: auto;
+   width: 100%;
    height: auto;
 }    
+
 .heb article
 {
     background-color: white;
-    padding: 1%;
-    margin: 1%;
-    border-radius: 1.25rem;
+    border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
     cursor: pointer;
-    height: 100%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
     display: flex;
     flex-flow: column wrap ;
 }
 
-h2
+.heb img {
+    object-fit:cover ;
+    box-sizing: content-box;
+     max-width: 100%; 
+     max-height: 100% ; 
+       
+       }
+
+.act
 {
-    height: 100%;
-    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+   flex-flow: row wrap; 
+   justify-content: space-around;  
+   width: 100%;
+   height: auto;   
 }
 
-
-
-
+.act article
+{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 16px #0000002e;
+    cursor: pointer;
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap ;   
+}
+.act img
+{
+    object-fit:cover ;
+    box-sizing: content-box;
+     max-width: 100%; 
+     max-height: 100% ;   
+}
     footer
 {
     background-color: #F2F2F2 ;
