@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="style.css">
-        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7ed1895e39.js" crossorigin="anonymous"></script>
         <title> Reservia </title>
   </head>
     <body>
@@ -22,24 +22,37 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>  
                 <p>En plein centre ville ou en pleine nature </p>
                 <form action="traitement.php" method="post">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <input type="search" placeholder="Marseille, France"/>
-                    <input type="submit" value="rechercher" />
-                    
-                </form>  
+                <i class="fas fa-map-marker-alt"></i>
+                <input type="search" placeholder="Marseille, France">
+                <button>
+                    <i class="fas fa-search"></i>
+                    <span>Rechercher</span> 
+                </button>
+                
+                </form> 
+                
                  <div>
                     <h2>Filtres</h2>
                     <span>
-                        Economique
-                        <i class="fas fa-money-bill-wave"></i>
+                       <i class="fas fa-money-bill-wave"></i> 
+                       Economique
                     </span>
-                    <span>Familial</span>
-                    <span>Romantique</span>
-                    <span>Animaux autorisés</span>
+                    <span>
+                        <i class="fas fa-child" aria-hidden="true"></i>
+                        Familial
+                    </span>
+                    <span>
+                       <i class="fas fa-heart" aria-hidden="true"></i>
+                       Romantique
+                    </span>
+                    <span>
+                        <i class="fas fa-dog" aria-hidden="true"></i>
+                        Animaux autorisés
+                    </span>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>   
             </section>
-            <section class="log" >
+            <section class="log" > 
                 <aside>
                     <h2>Les plus populaire</h2>
                     <div  class="pop">
@@ -48,6 +61,13 @@
                              <div> 
                                 <h3>Hôtel le soleil du matin</h3>
                                 <p>nuit à partir de<strong>128€</strong></p>
+                                <ul class="etoil">
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                </ul>
                             </div>
                         </article>
                         <article>
@@ -55,6 +75,13 @@
                             <div>
                                 <h3>Au coeur de l'eau chambres d'hôtes</h3>
                                 <p>Nuit à partir de <strong>71€</strong></p>
+                                <ul class="etoil">
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="false" class="fas fa-star"></i></li>
+                                </ul>
                             </div>
                         </article>
                         <article>
@@ -62,6 +89,13 @@
                             <div>
                                 <h3>Hôtel tout bleu et blanc</h3>
                                 <p>Nuit à partir de <strong>68€</strong></p>
+                                <ul class="etoil">
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="false" class="fas fa-star"></i></li>
+                                </ul>
                             </div>
                         </article>
                     </div>
@@ -69,49 +103,49 @@
                 <aside>
                     <h2>Hébergements à Marseille</h2>
                     <div class="heb">
-                    <article>
-                        <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec lit supreposer et fenetre vue sur rue">
-                        <div>
-                            <h3>Auberge la Cannebière</h3>
-                            <p> Nuit à partir de <strong>25€</strong></p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre avec deux lit simple">
-                        <div>
-                            <h3>Hôtel du port</h3>
-                            <p>Nuit à partir de <strong>52€</strong></p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="chambre avec lit double et dressing">
-                        <div>
-                            <h3>Hôtelles mouettes</h3>
-                            <p>Nuit à partir de <strong>76€</strong></p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="chambreavec lit double couleur bleu et blanc">
-                        <div>
-                            <h3>Auberge de la mer</h3>
-                            <p>Nuit à partir de <strong>46€</strong></p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="chambre avec lits superposer en bois">
-                        <div>
-                            <h3>Auberge Le Panier</h3>
-                            <p>Nuit à partir de <strong>23€</strong></p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="chambre avec deux lit double et un bureau">
-                        <div>
-                            <h3>Hôtel chez Amina</h3>
-                            <p>Nuit à partir de <strong>96€</strong></p>
-                        </div>
-                    </article>
-                </div>
+                        <article>
+                            <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="chambre avec lit supreposer et fenetre vue sur rue">
+                            <div>
+                                <h3>Auberge la Cannebière</h3>
+                                <p> Nuit à partir de <strong>25€</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="chambre avec deux lit simple">
+                            <div>
+                                <h3>Hôtel du port</h3>
+                                <p>Nuit à partir de <strong>52€</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="chambre avec lit double et dressing">
+                            <div>
+                                <h3>Hôtelles mouettes</h3>
+                                <p>Nuit à partir de <strong>76€</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="chambreavec lit double couleur bleu et blanc">
+                            <div>
+                                <h3>Auberge de la mer</h3>
+                                <p>Nuit à partir de <strong>46€</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="chambre avec lits superposer en bois">
+                            <div>
+                                <h3>Auberge Le Panier</h3>
+                                <p>Nuit à partir de <strong>23€</strong></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="chambre avec deux lit double et un bureau">
+                            <div>
+                                <h3>Hôtel chez Amina</h3>
+                                <p>Nuit à partir de <strong>96€</strong></p>
+                            </div>
+                        </article>
+                    </div>
                 </aside>
             </section>
             <section>
