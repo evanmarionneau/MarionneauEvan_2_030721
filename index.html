@@ -22,85 +22,34 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>  
                 <p>En plein centre ville ou en pleine nature </p>
                 <form action="traitement.php" method="post">
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="search" placeholder="Marseille, France">
-                <button>
-                    <i class="fas fa-search"></i>
-                    <span>Rechercher</span> 
-                </button>
+                    <span class="search">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <input type="search" placeholder="Marseille, France">
+                    <button>
+                        <i class="fas fa-search"></i>
+                        <span>Rechercher</span> 
+                    </button>
                 
                 </form> 
-                
-                 <div>
+                <div class="filtres">
                     <h2>Filtres</h2>
-                    <span>
-                       <i class="fas fa-money-bill-wave"></i> 
-                       Economique
-                    </span>
-                    <span>
-                        <i class="fas fa-child" aria-hidden="true"></i>
-                        Familial
-                    </span>
-                    <span>
-                       <i class="fas fa-heart" aria-hidden="true"></i>
-                       Romantique
-                    </span>
-                    <span>
-                        <i class="fas fa-dog" aria-hidden="true"></i>
-                        Animaux autorisés
-                    </span>
-                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
-                </div>   
+                    <span><i class="fas fa-money-bill-wave"></i>
+                    Economique</span>
+                    <span><i class="fas fa-child" aria-hidden="true"></i>
+                    Familial</span>
+                    <span><i class="fas fa-heart" aria-hidden="true"></i>
+                     Romantique</span>
+                    <span><i class="fas fa-dog" aria-hidden="true"></i>
+                    Animaux autorisés</span>
+                </div>
+            <div class="info">
+                <i class="fas fa-info" aria-hidden="true"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>     
             </section>
             <section class="log" > 
-                <aside>
-                    <h2>Les plus populaire</h2>
-                    <div  class="pop">
-                        <article>
-                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre lit double et couleur vert">
-                             <div> 
-                                <h3>Hôtel le soleil du matin</h3>
-                                <p>nuit à partir de<strong>128€</strong></p>
-                                <ul class="etoil">
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre lit double et couleur gris">
-                            <div>
-                                <h3>Au coeur de l'eau chambres d'hôtes</h3>
-                                <p>Nuit à partir de <strong>71€</strong></p>
-                                <ul class="etoil">
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="false" class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chabre lit double en bois et couleur blanc cassé">
-                            <div>
-                                <h3>Hôtel tout bleu et blanc</h3>
-                                <p>Nuit à partir de <strong>68€</strong></p>
-                                <ul class="etoil">
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="true" class="fas fa-star"></i></li>
-                                    <li><i data-active="false" class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </article>
-                    </div>
-                </aside>
-                <aside>
+                <aside class="one">
                     <h2>Hébergements à Marseille</h2>
                     <div class="heb">
                         <article>
@@ -147,6 +96,53 @@
                         </article>
                     </div>
                 </aside>
+                <aside class="two">
+                    <h2>Les plus populaire</h2>
+                    <div  class="pop">
+                       <article>
+                            <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="chambre lit double et couleur vert">
+                             <div> 
+                                <h3>Hôtel le soleil du matin</h3>
+                                <p>nuit à partir de<strong>128€</strong></p>
+                                <ul class="etoil">
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="chambre lit double et couleur gris">
+                            <div>
+                                <h3>Au coeur de l'eau chambres d'hôtes</h3>
+                                <p>Nuit à partir de <strong>71€</strong></p>
+                                <ul class="etoil">
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="false" class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="chabre lit double en bois et couleur blanc cassé">
+                            <div>
+                                <h3>Hôtel tout bleu et blanc</h3>
+                                <p>Nuit à partir de <strong>68€</strong></p>
+                                <ul class="etoil">
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="true" class="fas fa-star"></i></li>
+                                    <li><i data-active="false" class="fas fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </aside> 
             </section>
             <section>
                <h2>Activités à Marseille</h2>
@@ -175,7 +171,7 @@
                         <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="construction en pierre avec fontaine">
                         <h3>Parc du Longchamp</h3>
                     </article>
-                </div>>
+                </div>
             </section>
         </main>  
        <footer>
