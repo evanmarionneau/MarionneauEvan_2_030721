@@ -201,6 +201,7 @@ flex-flow: column wrap;
 .pop article > div
 {
     padding-left: 5px;
+    
 }
 
 .pop img
@@ -226,7 +227,7 @@ flex-flow: column wrap;
     box-shadow: 0 0 20px #0000002e;
     cursor: pointer;
     height: auto;
-    width: 28%;
+    width: 30%;
     display: flex;
     flex-flow: row wrap ;
     margin:0.5em ;
@@ -237,7 +238,7 @@ flex-flow: column wrap;
 .heb img {
     object-fit:cover ;
      width: 100%;
-     height: 7rem;
+     height: 8rem;
      border-radius:1rem 1rem 0 0;
        
        }
@@ -254,38 +255,47 @@ div article
 }
 .activités
 {
-  
-	padding-top: 40px;
-	width: 96%;
+    display: flex;
+	flex-direction:column ;
+	margin-top: 30px;
+
 }
 .act
 {
     display: flex;
-   flex-wrap: wrap;
-   flex-direction: row; 
-   justify-content: space-between;  
-   align-items: center;
-   height:60%;  
-   
-   
+	flex-wrap:  wrap;
+	width: auto;
+    margin-top: 20px;
+	justify-content: space-around;
+    	
+    
 }
-
-.act article
+.art1
 {
     
-    border-radius: 20px;
-    box-shadow: 1px 1px 6px 4px white;
+    box-shadow: 0 0 16px #0000002e;
     cursor: pointer;
-    width: 30%;
-    height: 45%;
+    display: flex;
+    flex-direction: column ;   
+    justify-content:space-between;
+    overflow: hidden;
+    height:100%;
+    margin: 12px;
+    
+    
+    
+}
+.art2
+{
+    box-shadow: 0 0 16px #0000002e;
+    cursor: pointer;
     display: flex;
     flex-direction: column ;   
     justify-content:flex-end;
     overflow: hidden;
-    
+    height: 50%;
     
 }
-
 .act h3
 {	
 	padding-left: 15px;
@@ -293,9 +303,52 @@ div article
 
 .act img 
 {
+	width: 300px; 
+	height: 385px;
+	border-radius: 20px 20px 0 0;
 	object-fit: cover;
 }
 
+#fort img
+{
+	width: 300px;
+	height: 180px; 
+	border-radius: 20px 20px 0 0;
+	object-fit: cover;
+}
+
+#île img
+{
+	width: 300px;
+	height: 130px;
+	border-radius: 20px 20px 0 0;
+	object-fit: cover;
+}
+
+#notre-dame img
+{
+	width: 300px;
+	height: 135px;
+	border-radius: 20px 20px 0 0;
+	object-fit: cover;
+}
+
+#longchamp img
+{
+	width: 300px;
+	height: 145px;
+	border-radius: 20px 20px 0 0;
+	object-fit: cover;
+}
+
+
+
+#port, #fort, #île, #parc, #notre-dame, #longchamp
+{
+	box-shadow: 0px 0px 20px #c0c0c0;
+	border-radius: 20px;
+    max-width: 300px;
+}
 
     footer
 {
@@ -316,5 +369,9 @@ footer div
 footer ul
 {
     list-style: none;
+
+}
+@media screen 
+{
 
 }
