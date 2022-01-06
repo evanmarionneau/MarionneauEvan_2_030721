@@ -260,13 +260,16 @@ div article
 	margin-top: 30px;
 
 }
+
+
 .act
 {
     display: flex;
 	flex-wrap:  wrap;
 	width: auto;
-    margin-top: 20px;
 	justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
     	
     
 }
@@ -279,8 +282,8 @@ div article
     flex-direction: column ;   
     justify-content:space-between;
     overflow: hidden;
-    height:100%;
-    margin: 12px;
+    border-radius: 20px 20px 0 0;
+    align-items: center;
     
     
     
@@ -290,10 +293,11 @@ div article
     box-shadow: 0 0 16px #0000002e;
     cursor: pointer;
     display: flex;
-    flex-direction: column ;   
+    flex-direction: column ; 
     justify-content:flex-end;
     overflow: hidden;
-    height: 50%;
+    margin: 20px;
+    align-items: center;
     
 }
 .act h3
@@ -301,12 +305,11 @@ div article
 	padding-left: 15px;
 }
 
-.act img 
+
+#port img
 {
-	width: 300px; 
-	height: 385px;
-	border-radius: 20px 20px 0 0;
-	object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
 #fort img
@@ -323,6 +326,12 @@ div article
 	height: 130px;
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
+}
+
+#parc img
+{
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;  
 }
 
 #notre-dame img
@@ -345,9 +354,12 @@ div article
 
 #port, #fort, #île, #parc, #notre-dame, #longchamp
 {
-	box-shadow: 0px 0px 20px #c0c0c0;
+	
+    box-shadow: 0px 0px 20px #c0c0c0;
 	border-radius: 20px;
     max-width: 300px;
+    
+   
 }
 
     footer
