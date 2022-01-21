@@ -13,6 +13,7 @@
 body
 {
     font-family: 'Raleway', sans-serif;
+    
 }
 nav ul
 {
@@ -93,7 +94,7 @@ button
 }
 .filtres
 {
-    margin: 2em;
+    justify-content: space-around;
     width: 100%;
     display: inline-flex;
     overflow: auto;   
@@ -159,16 +160,17 @@ font-size: 220%;
 .log
 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row ;
     margin: auto;
-    padding: 0 2rem;
     box-sizing: border-box;
+    justify-content: space-between;
+    
 
 }
 .one 
 {
 width: 60%;
-margin: 2em;
+justify-content: space-between;
 background-color: #F2F2F2;
 border-radius: 20px;
 
@@ -176,15 +178,18 @@ border-radius: 20px;
 .two
 {
  width: 30%;
-margin: 2em;
+justify-content: space-between;
 background-color: #F2F2F2;
-
 border-radius: 20px;
+
 }
+
+/* Section "Les plus populaires" */
+
 .pop
 {
     display: flex;
-flex-flow: column wrap;
+flex-flow: column ;
 }
 .pop article
 {
@@ -192,11 +197,9 @@ flex-flow: column wrap;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
     cursor: pointer;
-    height: 10em;
     display: flex;
     flex-direction: row ;
-    margin:0.5em ;
-    padding: 0.5em; 
+    
 }
 .pop article > div
 {
@@ -212,6 +215,8 @@ flex-flow: column wrap;
     border-radius: 1rem 0 0 1rem ; 
            
 }
+
+/* Section Hébergements à Marseille */
 
  .heb
  {
@@ -233,6 +238,7 @@ flex-flow: column wrap;
     margin:0.5em ;
     padding: 0.5em;
     box-sizing:border-box;
+
 }
 
 .heb img {
@@ -253,26 +259,25 @@ div article
 {
     box-sizing: border-box;
 }
+
+/* Section "Activités à Marseille" */
+
 .activités
 {
     display: flex;
 	flex-direction:column ;
-	margin-top: 30px;
-
+   
+    
 }
 
 
 .act
 {
     display: flex;
-	flex-wrap:  wrap;
-	width: auto;
-	justify-content: space-around;
     width: 100%;
-    margin-top: 20px;
-    	
-    
+   justify-content: space-between;
 }
+
 .art1
 {
     
@@ -280,13 +285,13 @@ div article
     cursor: pointer;
     display: flex;
     flex-direction: column ;   
-    justify-content:space-between;
     overflow: hidden;
     border-radius: 20px 20px 0 0;
-    align-items: center;
     
-    
-    
+}
+#column
+{
+    justify-content: space-between;
 }
 .art2
 {
@@ -294,11 +299,7 @@ div article
     cursor: pointer;
     display: flex;
     flex-direction: column ; 
-    justify-content:flex-end;
     overflow: hidden;
-    margin: 20px;
-    align-items: center;
-    
 }
 .act h3
 {	
@@ -310,12 +311,13 @@ div article
 {
     border-radius: 20px 20px 0 0;
     object-fit: cover;
+   
 }
 
 #fort img
 {
 	width: 300px;
-	height: 180px; 
+	height: 160px; 
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
 }
@@ -359,8 +361,10 @@ div article
 	border-radius: 20px;
     max-width: 300px;
     
+    
    
 }
+/* section footer */
 
     footer
 {
@@ -368,8 +372,8 @@ div article
     display: flex;
     justify-content: space-between;
     width: 100%;
-  margin: auto;
-  padding: 2px;
+  
+  
  
 }
 footer div
