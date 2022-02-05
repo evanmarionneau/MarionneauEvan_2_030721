@@ -159,7 +159,6 @@ font-size: 220%;
 {
     display: flex;
     flex-flow: row ;
-    margin: auto;
     box-sizing: border-box;
     justify-content: space-between;
     
@@ -170,7 +169,6 @@ font-size: 220%;
 width: 60%;
 background-color: #F2F2F2;
 border-radius: 20px;
-height: auto;
 }
 
 .two
@@ -178,7 +176,6 @@ height: auto;
  width: 30%;
 background-color: #F2F2F2;
 border-radius: 20px;
-height: auto;
 }
 
 /* Section "Les plus populaires" */
@@ -187,8 +184,7 @@ height: auto;
 {
     display: flex;
     flex-direction: column ;
-    
-    
+    align-items: center;
     
 }
 
@@ -200,7 +196,8 @@ height: auto;
     cursor: pointer;
     display: flex;
     flex-direction: row ;
-    
+    margin-bottom: 20px;
+    width: 90%;
 }
 
 .pop article > div
@@ -236,6 +233,7 @@ height: auto;
     display: flex;
     flex-flow: row wrap ;
     box-sizing:border-box;
+    margin-bottom: 20px;
 }
 
 .heb img 
@@ -273,6 +271,7 @@ div article
     display: flex;
     width: 100%;
    justify-content: space-around;
+  
 }
 
 .art1
@@ -292,6 +291,7 @@ div article
     display: flex;
     flex-direction: column ; 
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 .act h3
